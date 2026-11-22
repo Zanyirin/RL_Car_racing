@@ -2,8 +2,6 @@
 
 A 2D driving simulation where 8 cars learn to drive from start (A) to finish (B) using **tabular Q-learning implemented from scratch**, with no RL libraries. The agents share a single Q-table and learn to follow a curved road, stop at red lights and avoid obstacles.
 
-![Simulation screenshot](docs/screenshot.png)
-
 ## Features
 
 - **Q-learning from scratch** with NumPy: epsilon-greedy exploration, a shared Q-table for 8 parallel agents, and persistent save/load
