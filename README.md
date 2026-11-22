@@ -66,7 +66,7 @@ All values are constants at the top of the script and are easy to tweak.
 git clone https://github.com/Zanyirin/rl-car-simulation.git
 cd rl-car-simulation
 pip install -r requirements.txt
-python main.py
+python rl_car_simulation.py
 ```
 
 If `q_table.pkl` exists, training continues from the saved Q-table.
